@@ -80,7 +80,4 @@ def tampilkan_data(result):
     print(f"Dirasakan{result['dirasakan']}")
     print(f"Lokasi{result['lokasi']}")
 
-if __name__ == '__main__':
 
-    result =extraksi_data()
-    tampilkan_data(result)
