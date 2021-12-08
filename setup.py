@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/jakarta-remote-work/Latest-Earthquake-News",
     project_urls={
-        "Bug Tracker": "https://github.com/jakarta-remote-work/Latest-Earthquake-News",
+
     },
     classifiers=[
         "Programming Language :: Python :: 3",
