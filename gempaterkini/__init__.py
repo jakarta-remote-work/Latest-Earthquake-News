@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-definition = 'to get the latest eartquake news from BMKG'
+description = 'to get the latest eartquake news from BMKG'
 
 def extraksi_data():
     """
@@ -81,4 +81,7 @@ def tampilkan_data(result):
     print(f"Dirasakan{result['dirasakan']}")
     print(f"Lokasi{result['lokasi']}")
 
-
+if __name__ == '__main__':
+    print('description package', description)
+    result = extraksi_data()
+    tampilkan_data(result)
