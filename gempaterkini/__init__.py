@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+definition = 'to get the latest eartquake news from BMKG'
 
 def extraksi_data():
     """
