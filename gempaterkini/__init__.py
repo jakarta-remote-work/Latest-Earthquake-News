@@ -28,7 +28,6 @@ def extraksi_data():
 
         result = soup.find('div', {'class': 'col-md-6 col-xs-6 gempabumi-detail no-padding'})
         result = result.findChildren('li')
-        print(result)
 
         i=0
         magnitudo =None
